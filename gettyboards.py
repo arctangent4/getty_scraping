@@ -1,9 +1,9 @@
 import re
 
-
+#Functionality for handling the special URL of a Getty Board
 def board_link_cleaner(board_image_link, **kwargs):
  
-
+#Build the size_string
     if 'size' in kwargs:
         dimension = kwargs['size']
         size_string = "?s="+dimension+"x"+dimension
@@ -14,7 +14,7 @@ def board_link_cleaner(board_image_link, **kwargs):
 
         
 
-  
+  #Detect media_type and find image/video id.
     if re.search("photos", board_image_link):
         media_type = "image"
         split_link = re.split("\?", board_image_link)
@@ -37,7 +37,7 @@ def board_link_cleaner(board_image_link, **kwargs):
 
 
 
-   
+
     return new_link,link_id, media_type
 
 
