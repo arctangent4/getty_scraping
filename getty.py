@@ -24,7 +24,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options
 #chrome_options.headless = True
 #driver = webdriver.Chrome()
 
-parser = argparse.ArgumentParser(description="This is the parser for the getty downloader.")
+parser = argparse.ArgumentParser(description="This is the parser for the Getty downloader.")
 parser.add_argument("url", help = "Choose an url to scrape ")
 parser.add_argument("-d", "--dir", help = "Choose a directory to store images in ")
 parser.add_argument("-in", "--image-number",dest="imgs", type = int, help = "Choose how many images you want to download; it must be a positive integer.")
