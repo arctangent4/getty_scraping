@@ -1,5 +1,5 @@
 # light_getty
-A lightweight getty images and videos scraper using Chrome webdriver. Can scrape from searches or boards.
+A lightweight getty images and videos scraper using Selenium and Chrome Webdriver. Can scrape from searches or boards.
 
 NOTE: This is just an illustrative example. Use at your own discretion and follow all relevant laws. 
 
