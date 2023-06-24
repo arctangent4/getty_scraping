@@ -1,9 +1,9 @@
 import re
 
-
+#Functionality for handling the special URL of a Getty Board
 def board_link_cleaner(board_image_link, **kwargs):
  
-
+#Build the size_string
     if 'size' in kwargs:
         dimension = kwargs['size']
         size_string = "?s="+dimension+"x"+dimension
@@ -14,7 +14,7 @@ def board_link_cleaner(board_image_link, **kwargs):
 
         
 
-  
+  #Detect media_type and find image/video id.
     if re.search("photos", board_image_link):
         media_type = "image"
         split_link = re.split("\?", board_image_link)
@@ -37,15 +37,8 @@ def board_link_cleaner(board_image_link, **kwargs):
 
 
 
-   
+
     return new_link,link_id, media_type
-
-#url ="https://media.gettyimages.com/photos/female-doctor-teaching-how-to-wearing-surgical-mask-for-protect-and-picture-id1215085919?k=6&m=1215085919&s=612x612&w=0&h=oTtjRPTfb3l_YqR2kLEJ63SQr85bWwzoMMogEYgce2Y="
-#board_link_cleaner(url, size='1024')
-
-#
-#url = "https://media.gettyimages.com/videos/female-nurse-wearing-a-gown-surgical-face-mask-gloves-and-a-face-a-video-id1252939357?s=640x640"
-#board_link_cleaner(url)
 
 
 

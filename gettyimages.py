@@ -24,8 +24,6 @@ def image_link_cleaner(image_link,**kwargs):
 
 
 
-#image_link_cleaner("https://www.gettyimages.com/detail/photo/portrait-asian-female-doctor-wearing-face-shield-royalty-free-image/1215687764?adppopup=true")
-
 #time = str(datetime.now()).replace(":","_").replace(".","_")
 #title = "Images downloaded on " + str(time)
 #print(title)
