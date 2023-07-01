@@ -1,12 +1,12 @@
-# getty_scraper
+# getty_scraping
 An adaptable Getty images and videos scraper using Selenium and Chrome Webdriver. Can scrape from searches or boards.
 
 NOTE: This is just an illustrative example. Use at your own discretion and follow all relevant laws. 
 
 ## Installation:
-Download files or use git clone https://github.com/arctangent4/light_getty.git
+Download files or use git clone https://github.com/arctangent4/getty_scraping.git
 
->cd light_getty
+>cd getty_scraping
 
 >python -m venv virt
 
