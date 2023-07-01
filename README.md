@@ -10,8 +10,9 @@ Download files or use git clone https://github.com/arctangent4/getty_scraping.gi
 
 >python -m venv virt
 
->source virt/bin/activate   
-or with Git Bash on Windows
+>source virt/bin/activate
+ 
+Or with Git Bash on Windows:
 >source virt/Scripts/activate
 
 >pip install -r requirements.txt
