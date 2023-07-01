@@ -10,11 +10,10 @@ Download files or use git clone https://github.com/arctangent4/getty_scraping.gi
 
 >python -m venv virt
 
-Linux/Mac:
 >source virt/bin/activate
- 
-Git Bash on Windows:
->source virt/Scripts/activate
+
+>[For Git Bash on Windows]
+ >source virt/Scripts/activate
 
 
 >pip install -r requirements.txt
@@ -24,7 +23,7 @@ the error during installation. Then, run "pip install wheel" and reinstall the p
 
 
 ## Program Details
-URL is required, other arguments are optional. At the moment, only 612x612 images are supported due to new changes in how Getty URLS are constructed.
+URL is required, other arguments are optional. At the moment, only 612x612 images are supported due to new changes in how Getty URLs are constructed.
 >python getty.py [getty url] -d [storage directory] -in [number of images] -pn [number of pages of images] -s [image size]
 
 
